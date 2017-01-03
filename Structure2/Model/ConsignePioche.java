@@ -1,0 +1,1 @@
+public interface ConsignePioche implements Consigne, Pioche {}

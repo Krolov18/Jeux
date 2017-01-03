@@ -1,0 +1,1 @@
+public class ConsigneColorLines extends ColorLines implements Consigne {}

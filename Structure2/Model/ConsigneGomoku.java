@@ -1,0 +1,1 @@
+public class ConsigneGomoku extends Gomoku implements Consigne {}

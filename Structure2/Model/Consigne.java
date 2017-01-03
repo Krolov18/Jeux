@@ -1,0 +1,1 @@
+public interface Consigne extends Object implements Model {}

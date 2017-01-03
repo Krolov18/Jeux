@@ -1,0 +1,1 @@
+public interface ConsigneCase implements Consigne, Case {}
