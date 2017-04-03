@@ -1,1 +1,0 @@
-public interface ConsigneJoueur implements Consigne, Joueur {}

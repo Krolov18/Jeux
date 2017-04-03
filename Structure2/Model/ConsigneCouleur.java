@@ -1,1 +1,0 @@
-public interface implements Consigne, Couleur {}

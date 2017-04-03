@@ -1,0 +1,67 @@
+<html>
+	<head> <title>Pendu</title> </head>
+	
+	<body>
+	
+<h1 style="color:red;text-align:center;font-family:Comic Sans MS"><b>Le pendu !</b></h1>
+<br>
+
+<h3 style="color:DarkRed;font-family:Comic Sans MS"><u>Les caractéristiques de notre pendu</u> :</h3>
+	<p style="text-indent:2em;font-size:110%;font-family:Comic Sans MS"> - syntaxique
+	<p style="text-indent:2em;font-size:110%;font-family:Comic Sans MS"> - un champ de saisie
+	
+<p style="font-size:110%;text-align:justify;font-family:Comic Sans MS">Il est destiné à la proposition du joueur. 
+<br>Celui-ci peut y entrer les lettres qu'il souhaite une à une afin de deviner la phrase progressivement
+
+	<p style="text-indent:2em;font-size:110%;font-family:Comic Sans MS"> - 3 boutons 
+<p style="font-size:110%;text-align:justify;font-family:Comic Sans MS">Le bouton "<b>jouer</b>", tout en haut de la fenêtre, lance le jeu : il choisit une phrase et l'affiche sous forme de tirets, il affiche également les indices de catégorie. 
+<br>Le bouton "<b>vérifier</b>" permet de vérifier si la lettre entrée dans le champ de saisie est dans la phrase, il s'occupe également de remplacer le tiret correspondant par ladite lettre lorsqu'elle est effectivement présente.
+<br>Le bouton "<b>quitter</b>" est on ne peut plus explicite, il permet de fermer le jeu (sans sauvegarde possible). Il est également possible de quitter la fenêtre grace au menu situé en haut de la fenêtre (fichier -> quitter).
+
+<p style="text-indent:2em;font-family:Comic Sans MS"><u>Exemple</u>:
+
+<p style="text-indent:4em;font-family:Comic Sans MS">Je mange une pomme .</p>
+
+<p style="text-indent:4em;text-align:justify;font-family:Comic Sans MS">_ _ : CLS  _ _ _ _ _ : VERBE  _ _ _ : DET  _ _ _ _ _ : NC  _ : PONCT</p>
+
+<p style="text-align:justify;font-family:Comic Sans MS"><b>"_"</b> représente un caractère à  trouver et ce qui se trouve à droite  des <b>":"</b>. Il correspond à un indice linguistique.</p>
+
+<br>
+<h3 style="color:DarkRed;font-family:Comic Sans MS"><u>Abbréviations des fonctions</u> :</h3>
+
+<p style="font-size:110%;text-align:justify;font-family:Comic Sans MS">
+S'il y a des abbréviations, en voici leur signification. Normalement, il n'y en a plus. On ne sait jamais.
+<br>suj = sujet
+<br>de_obj = complément du verbe introduit par la preposition de
+<br>à_obj = complément du verbe introduit par la preposition à
+<br>mod = modifieur
+<br>ponct = ponctuation
+<br>root = signifie que c'est l'élément qui dirige l'ensemble de la phrase (souvent un verbe)</p>
+<br>
+
+<h3 style="color:DarkRed;font-family:Comic Sans MS"><u>Les règles :</u></h3>
+
+<p style="font-size:110%;text-align:justify;font-family:Comic Sans MS">Le joueur dans un nombre d'essais limités, nombre fixé par rapport aux nombres de mots à trouver dans la phrase, doit
+découvrir <b style="font-size:120%;font-family:Comic Sans MS">la phrase cachée</b>. Pour cela plusieurs indices lui sont offerts. Chaque mot caché de la phrase
+est accompagné d'une étiquette catégorielle le mettant sur la piste de qui peut se cacher derrière.
+<br>
+<br><u>Attention</u> : la ponctuation compte comme un mot donc quand une phrase est ponctuée, il ne faut pas oubier de proposer des solutions pour la ponctuation !!!!</p>
+<br>
+
+<p style="font-size:110%;color:blue;font-family:Comic Sans MS">Simulation:</p>
+<p style="font-size:110%;font-family:Comic Sans MS">>>> (solution cachée au joueur) <em>Je mange des pommes, des bananes, des crevettes et des yahourts aux fruits</em>.</p>
+<p style="font-family:Comic Sans MS"><u>Proposition</u> : <b>a</b></p>
+
+<p style="text-indent:2em;font-family:Comic Sans MS"> _ _ : CLS  _ <b>a</b> _ _ _ :VERBE    _ _ _ : DET    _ _ _ _ _ _ : NOM   _ : PONCT   _ _ _ : DET  _ <b>a</b> _ <b>a</b> _ _ _ : NOM  
+
+_ :PONCT   _ _ _ :DET   _ _ _ _ _ _ _ _ _ :NOM   _ _ :CONJ   _ _ _ :DET   _ <b>a</b> _ _ _ _ _ _ :NOM   <b>a</b> _ _ :P+D   _ _ _ _ _ _ NOM   _ :PONCT</p>
+
+
+	</body>
+	</html>
+	
+
+
+
+
+

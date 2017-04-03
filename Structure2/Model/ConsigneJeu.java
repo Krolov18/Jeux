@@ -1,1 +1,0 @@
-public interface ConsigneJeu implements Consigne, Jeu {}

@@ -1,1 +1,0 @@
-public interface Plateau extends Object implements Model {}

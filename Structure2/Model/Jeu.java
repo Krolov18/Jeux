@@ -1,1 +1,0 @@
-public interface Jeu extends Object implements Model {}

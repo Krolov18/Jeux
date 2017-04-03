@@ -1,1 +1,0 @@
-public class ColorLines extends Applet {}

@@ -1,1 +1,0 @@
-public interface ConsignePlateau implements Consigne, Plateau {}
